@@ -42,6 +42,11 @@ version = {attr = "torchcvnn.__version__"}
 
 [project.optional-dependencies]
 
+test = [
+    "pytest",
+    "pytest-cov",
+]
+
 docs = [
     "sphinx>=8.1.3",
     "furo>=2024.04.27",
