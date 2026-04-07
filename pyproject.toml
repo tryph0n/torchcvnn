@@ -16,7 +16,7 @@ dependencies = [
   "h5py>=3.12.1",
   "huggingface-hub>=0.32.6"
 ]
-requires-python = ">= 3.9.10"
+requires-python = ">= 3.10"
 authors = [
 {name= "Jeremy Fix", email="jeremy.fix@centralesupelec.fr" },
 {name= "Quentin Gabot", email="quentin.gabot@centralesupelec.fr" }
@@ -31,7 +31,10 @@ keywords = ["deep learning", "pytorch", "complex valued neural networks"]
 
 classifiers = [
   "Development Status :: 4 - Beta",
-  "Programming Language :: Python"
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12"
 ]
 
 [tool.setuptools.dynamic]
